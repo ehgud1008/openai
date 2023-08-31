@@ -64,7 +64,7 @@ const handleSubmit = async (e) => {
     form.reset();
 
     //bot ChatStripe
-    const uniqueId = gernerateUniqueId();
+    const uniqueId = gernerateUniqueId(); 
     chatContainer.innerHTML += chatStripe(true, "", uniqueId);
 
     chatContainer.scrollTop = chatContainer.scrollHeight;
